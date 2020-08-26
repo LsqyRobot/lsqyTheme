@@ -1,0 +1,50 @@
+head:
+    favicon: "/img/favicon.ico"
+    keywords: looking backward 
+    backgroundpic : "/img/life.jpg"
+
+Intro:
+    name: 终不似，少年游
+    slogan: "You cann't connect the dots looking forward, <br/> but you can only connect them looking backward.  --Steve Jobs"
+    HeadButton: dots 
+
+Nav:
+    Home_name: 主页
+    is_use_categories : true 
+    categories_name: 分类
+    is_use_about : true
+    about_name: 关于我
+    is_use_about_friend: true
+    is_use_quote: true
+    friend_name: 老友记
+    quote_name: 喜欢的句子
+    is_use_tags : true
+    tags_name : 标签
+    pages:
+
+MainFirst:
+    name: lsqyRobot 
+    description: 平凡的生活，不平凡的心。
+    pic_url: /images/lsqyRobot.jpg
+    goto_ulr: ""
+
+prism: coy
+
+fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "FZLTCXHJW", Arial, sans-serif
+
+
+busuanzi:
+    enable: true
+    all_site_uv: true
+    post_pv: true
+    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
+
+
+mathjax:
+  enable: false
+  per_page: false
+  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+post_wordcount:
+  item_text: true
+  wordcount: true
+  min2read: true

@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="/css/item.css" />
+<style >
+.row a{
+	border-bottom: none;
+}
+.special{
+padding: 0;
+padding: 2rem;
+}
+</style>
+<body class="is-loading">
+<div id="wrapper" class="fade-in">
+<%- partial('_partial/headerlogo') %>
+<section class="special">
+<% if (site.tags.length) { %>
+	<script type="text/javascript" charset="utf-8" src="<%- config.root %>js/tagcloud.js"></script>
+		<script type="text/javascript" charset="utf-8" src="<%- url_for('/js/tagcanvas.js') %>"></script>
+		<div class="widget-wrap">
+		<h2 class="widget-title"><%= __('dots') %></h2>
+		<div id="myCanvasContainer" class="widget tagcloud">
+		<canvas width="600" height="500" id="resCanvas" style="width=50%">
+		<%- tagcloud() %>
+		</canvas>
+		</div>
+		</div>
+		<% } %>
+		</section>
+
+		<%- partial('_partial/copyright') %>
+		</div>
+		</body>

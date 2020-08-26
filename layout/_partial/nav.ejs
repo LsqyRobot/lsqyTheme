@@ -1,0 +1,71 @@
+<nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+			<li >
+	            <a href="<%= config.root %>" rel="nofollow"><%- theme.Nav.Home_name %></a>
+	        </li>
+
+			<!-- categories_name  分类   --> 
+	        <% if(theme.Nav.is_use_categories === true) { %>
+	        <li class="active">
+	            <a href="#s1"><%- theme.Nav.categories_name %></a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <%- list_categories({
+	                            show_count: false,
+	                            amount: 5,
+	                            style: 'none',
+	                            separator: '</li><li>'
+	                        }) %>
+	                    </ul>
+	        </li>
+	        <% } %>
+
+
+	        <!-- about 关于我   --> 
+			<li>
+	        <% if(theme.Nav.is_use_about === true) { %>
+	            <a href="/about/" ><%- theme.Nav.about_name%></a>
+	        <% } %>
+			</li>
+
+
+
+	        <!-- about 关于我的朋友   --> 
+			<li>
+	        <% if(theme.Nav.is_use_about_friend === true) { %>
+	            <a href="/friend/" ><%- theme.Nav.friend_name%></a>
+	        <% } %>
+			</li>
+
+
+
+
+	        <!-- about 关于格言   --> 
+			<li>
+	        <% if(theme.Nav.is_use_quote === true) { %>
+	            <a href="/quote/" ><%- theme.Nav.quote_name%></a>
+	        <% } %>
+			</li>
+
+
+
+
+
+
+
+
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    <% for (var i in theme.Nav.icon) { %>
+                    <li>
+                        <a title="<%= i %>" href="<%- url_for(theme.Nav.icon[i]) %>" target="_blank" rel="noopener">
+                            <i class="icon fa fa-<%= i %>"></i>
+                        </a>
+                    </li>
+                    <% } %>
+			</ul>
+</nav>
