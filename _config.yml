@@ -1,6 +1,6 @@
 head:
     favicon: "/img/favicon.ico"
-    keywords: looking backward 
+    keywords: mathematica,robotics,manipulator,ros,vim,matlab,C/C++,python,git,control theory,lsqyRobot
     backgroundpic : "/img/life.jpg"
 
 Intro:
@@ -13,7 +13,7 @@ Nav:
     is_use_categories : true 
     categories_name: 分类
     is_use_about : true
-    about_name: 关于我
+    about_name: 历程
     is_use_about_friend: true
     is_use_quote: true
     friend_name: 老友记
@@ -25,7 +25,7 @@ Nav:
 MainFirst:
     name: lsqyRobot 
     description: 平凡的生活，不平凡的心。
-    pic_url: /images/lsqyRobot.jpg
+    pic_url: /img/lsqyRobot.jpg
     goto_ulr: ""
 
 prism: coy
@@ -38,7 +38,6 @@ busuanzi:
     all_site_uv: true
     post_pv: true
     busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
-
 
 mathjax:
   enable: false

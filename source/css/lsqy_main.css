@@ -2197,7 +2197,7 @@
 			#me .pic:before {
 				content: '';
 				position: absolute;
-				background: url("/img/lsqyRobot.jpg");
+				background: url("/img/postImg/lsqyRobot.jpg");
 				width: 100%;
 				z-index: 1;
 			}
