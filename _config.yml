@@ -23,15 +23,14 @@ Nav:
     pages:
 
 MainFirst:
-    name: lsqyRobot 
-    description: 平凡的生活，不平凡的心。
+    name: <img src="/img/lsqyLogo.png">
+    description: <img src="/img/myQuote.png">
     pic_url: /img/lsqyRobot.jpg
     goto_ulr: ""
 
 prism: coy
 
 fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "FZLTCXHJW", Arial, sans-serif
-
 
 busuanzi:
     enable: true
@@ -40,10 +39,14 @@ busuanzi:
     busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
 
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true
   cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
 post_wordcount:
   item_text: true
   wordcount: true
   min2read: true
+
+
+
