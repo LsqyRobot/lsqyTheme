@@ -1,23 +1,26 @@
-head:
+head: 
     favicon: "/img/favicon.ico"
     keywords: mathematica,robotics,manipulator,ros,vim,matlab,C/C++,python,git,control theory,lsqyRobot
     backgroundpic : "/img/life.jpg"
 
 Intro:
-    name: 终不似，少年游
-    slogan: "You cann't connect the dots looking forward, <br/> but you can only connect them looking backward.  --Steve Jobs"
+    name: <img src="/img/logo.png"> 
+    slogan: <img src="/img/steveJobsQuote.png">  
     HeadButton: dots 
 
+
+
+
 Nav:
-    Home_name: 主页
+    Home_name: <img src="/img/home.png">  
     is_use_categories : true 
-    categories_name: 分类
+    categories_name: <img src="/img/folder.png"> 
     is_use_about : true
-    about_name: 历程
+    about_name: <img src="/img/about.png"> 
     is_use_about_friend: true
     is_use_quote: true
-    friend_name: 老友记
-    quote_name: 喜欢的句子
+    friend_name: <img src="/img/friend.png"> 
+    quote_name: <img src="/img/quote.png"> 
     is_use_tags : true
     tags_name : 标签
     pages:
@@ -32,6 +35,7 @@ prism: coy
 
 fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "FZLTCXHJW", Arial, sans-serif
 
+
 busuanzi:
     enable: true
     all_site_uv: true
@@ -39,14 +43,10 @@ busuanzi:
     busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
 
 mathjax:
-  enable: true
-  per_page: true
+  enable: false
+  per_page: false
   cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-
 post_wordcount:
   item_text: true
   wordcount: true
   min2read: true
-
-
-
