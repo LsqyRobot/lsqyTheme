@@ -8,9 +8,6 @@ Intro:
     slogan: <img src="/img/steveJobsQuote.png">  
     HeadButton: dots 
 
-
-
-
 Nav:
     Home_name: <img src="/img/home.png">  
     is_use_categories : true 
@@ -21,7 +18,7 @@ Nav:
     is_use_quote: true
     friend_name: <img src="/img/friend.png"> 
     quote_name: <img src="/img/quote.png"> 
-    is_use_tags : true
+    is_use_tags : false
     tags_name : <img src="/img/tag.png">
     pages:
 
@@ -34,22 +31,6 @@ MainFirst:
 prism: coy
 
 fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "FZLTCXHJW", Arial, sans-serif
-
-
-busuanzi:
-    enable: true
-    all_site_uv: true
-    post_pv: true
-    busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
-
-mathjax:
-  enable: true
-  per_page: true
-  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-post_wordcount:
-  item_text: true
-  wordcount: true
-  min2read: true
 
 # hexo-tag-cloud
 tag_cloud:
